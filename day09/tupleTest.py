@@ -8,3 +8,6 @@
 
 mixed_tuple=(2,)
 print(mixed_tuple)
+
+tuple=(1,2,['a','b'])
+print(str(tuple))
