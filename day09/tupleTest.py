@@ -11,3 +11,14 @@ print(mixed_tuple)
 
 tuple=(1,2,['a','b'])
 print(str(tuple))
+
+dict1={"a":1,"b":2,"c":'apple'}
+for ele in dict1:
+    print(ele)
+    print(dict1[ele])
+
+for item in dict1.items():
+    print(item)
+
+for key,elem in dict1.items():
+    print(key,elem)
