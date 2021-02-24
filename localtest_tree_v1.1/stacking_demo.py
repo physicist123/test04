@@ -40,6 +40,7 @@ sclf = StackingClassifier(classifiers=[clf1,clf2],
                               # average_probas=False,  是否对每一个类别产生的概率值做平均
                           meta_classifier=LogisticRegression())
 
+
 sclf.fit(X_train, Y_train)
 Y_pred = sclf.predict(X_test)
 print("预测结果集：",Y_pred)
